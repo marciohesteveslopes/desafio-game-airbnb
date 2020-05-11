@@ -1,0 +1,21 @@
+#conteudo {
+    text-align: center;
+    padding: 30px;
+}
+
+#cards {
+    display: inline-flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-basis: auto;
+}
+
+#footer {
+    display: grid;
+    background-color: #e8e8e8;
+    padding-top: 10px;
+    margin-bottom: 15px;
+}
+.form-row{
+    display: flexbox;
+}

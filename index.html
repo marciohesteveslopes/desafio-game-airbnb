@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width-device-width, initial-scale=1.0" />
+    <title>AirBnB Clone</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body class="container-fluid">
+
+    <div id="navbar">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#"> <img src="./logo-airbnb.png" width="50px" height="50px"></a>
+            <a class="navbar-brand" href="#">AirBnB</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Alterna navegação">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ">
+                    <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(Página atual)</span></a>
+                    <a class="nav-item nav-link" href="#">Ajuda</a>
+                    <a class="nav-item nav-link" href="#">Entrar</a>
+                    <a class="nav-item nav-link" href="#">Cadastre-se</a>
+
+                </div>
+            </div>
+        </nav>
+        <!--Segunda navbar -->
+        <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+                aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Alterna navegação">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">LOCALIZAÇÃO <span class="sr-only">(Página atual)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">CHECK-IN/CHECKOUT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="#">HÓSPEDES</a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar</button>
+                </form>
+            </div>
+        </nav> -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <form>
+                <div class="form-row">
+                    <div class="form-group col-md-4">
+                        <label for="inputEmail4">LOCALIZAÇÃO</label>
+                        <input type="text" class="form-control" id="inputLocalizacao" placeholder="Para onde você vai?">
+                    </div>
+                    <div class="form-group col-md-4">
+                        <label for="inputEmail4">CHECK-IN/CHECKOUT</label>
+                        <input type="date" class="form-control" id="inputCheckInOut" placeholder="Insira as datas">
+                    </div>
+                    <div class="form-group col-md-4">
+                        <label for="inputEmail4">HÓSPEDES</label>
+                        <input type="number" class="form-control" id="inputHospedes" placeholder="Quantos hóspedes?">
+                    </div>
+                    <div class="form-group col-md-3">
+                        <button type="button" class="btn btn-danger">Pesquisar</button>
+                    </div>
+                   
+            </form>
+
+        </nav>
+    </div>
+
+    <div id="conteudo" class="container-fluid">
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+                <h1 class="display-2">Bem-vindos!</h1>
+                <p class="lead">Aqui na <span class="badge badge-danger">AirBnB Clone</span> você encontra os mais diversos locais para passar um tempo sozinho ou se divertir
+                    com a família.</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="cards">
+
+    </div>
+
+    <footer id="footer" class="container-fluid">
+        <h6>
+            Acesse nossas redes sociais:
+        </h6>
+        <p>
+            Instagram: @AirBnB_Clone
+        </p>
+        <p style="text-align: right;">
+            Um site de Márcio Esteves ™
+        </p>
+
+    </footer>
+
+
+
+
+
+    <script src="./index.js"></script>
+</body>
+
+
+</html>
